@@ -124,14 +124,14 @@ makeBroccoli()
 async function makeBrussels(){
   try{
     const allResponses= await Promise.all([
-      obtainInstruction("broccoli",0),
-      obtainInstruction("broccoli",1),
-      obtainInstruction("broccoli",2),
-      obtainInstruction("broccoli",3),
-      obtainInstruction("broccoli",4),
-      obtainInstruction("broccoli",5),
-      obtainInstruction("broccoli",6),
-      obtainInstruction("broccoli",7)
+      obtainInstruction("brusselsSprouts",0),
+      obtainInstruction("brusselsSprouts",1),
+      obtainInstruction("brusselsSprouts",2),
+      obtainInstruction("brusselsSprouts",3),
+      obtainInstruction("brusselsSprouts",4),
+      obtainInstruction("brusselsSprouts",5),
+      obtainInstruction("brusselsSprouts",6),
+      obtainInstruction("brusselsSprouts",7)
     ])
   } catch(error){
   console.log(error)
